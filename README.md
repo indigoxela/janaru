@@ -1,2 +1,3 @@
-# janaru
-Backdrop CMS Theme
+# Janaru
+
+Backdrop CMS Theme for backdrop-cms.de

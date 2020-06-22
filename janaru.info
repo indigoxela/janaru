@@ -1,0 +1,4 @@
+name = Janaru
+description = The default front-end theme for backdrop-cms.de
+type = theme
+backdrop = 1.x
