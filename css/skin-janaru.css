@@ -1,0 +1,62 @@
+/**
+ * @file
+ * Colors and appearance styles.
+ *
+ * Override styles of Basis, and/or add custom styles.
+ */
+
+/*  == Fonts ================================== */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/IBMPlexSans-Regular.ttf');
+}
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/IBMPlexSans-Italic.ttf');
+}
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/IBMPlexSans-SemiBold.ttf');
+}
+
+/* == General ================================= */
+body {
+  font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
+}
+strong {
+  font-weight: 600;
+}
+
+
+/* == Header ================================== */
+.l-header-inner {
+  min-height: 5rem;
+}
+.l-header .menu-dropdown li {
+  font-size: 1.3125rem;
+  font-weight: 600;
+}
+.l-header .menu-dropdown .first {
+  font-size: 1.5rem;
+}
+.l-header .menu-dropdown a span.sub-arrow {
+  display: none;
+}
+.l-header .menu-dropdown a.active-trail {
+  color: #f317cd;
+}
+
+@media (min-width: 34em) {
+  .l-header .menu a {
+    padding-top: 2.25rem;
+  }
+  .l-header .menu .first a {
+    padding-top: 2.0625rem;
+  }
+}

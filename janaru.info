@@ -1,4 +1,9 @@
 name = Janaru
-description = The default front-end theme for backdrop-cms.de
+description = A sub-theme of Basis as the default front-end theme for backdrop-cms.de
 type = theme
 backdrop = 1.x
+base theme = basis
+screenshot = screenshot.png
+
+; Add theme CSS files
+stylesheets[all][] = css/skin-janaru.css
