@@ -27,6 +27,7 @@
 
 /* == General ================================= */
 body {
+  background: #fafafa;
   font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
 }
 strong {
@@ -38,6 +39,10 @@ strong {
 .l-header-inner {
   min-height: 5rem;
 }
+.l-header a {
+  color: #fafafa;
+  text-decoration: none;
+}
 .l-header .menu-dropdown li {
   font-size: 1.3125rem;
   font-weight: 600;
@@ -45,11 +50,17 @@ strong {
 .l-header .menu-dropdown .first {
   font-size: 1.5rem;
 }
+.l-header .menu-dropdown ul .first {
+  font-size: 1.3125rem;
+}
 .l-header .menu-dropdown a span.sub-arrow {
   display: none;
 }
 .l-header .menu-dropdown a.active-trail {
   color: #f317cd;
+}
+.l-header .menu-dropdown ul a.active-trail {
+  color: #fafafa;
 }
 
 @media (min-width: 34em) {
@@ -57,6 +68,25 @@ strong {
     padding-top: 2.25rem;
   }
   .l-header .menu .first a {
-    padding-top: 2.0625rem;
+    padding: 2.0625rem 1.25rem 1rem 0;
+  }
+  .l-header .menu ul .first a {
+    padding: 1rem 1.25rem;
+  }
+}
+@media (min-width: 48em) {
+  .menu-dropdown ul a:hover,
+  .menu-dropdown ul a:focus,
+  .menu-dropdown ul a:active,
+  .menu-dropdown ul a.highlighted {
+    background: #f317cd;
+  }
+  .js .menu-dropdown > li:hover,
+  .js .l-header .menu-dropdown > li > a:hover,
+  .js .l-header .menu-dropdown > li > a:focus,
+  .js .l-header .menu-dropdown > li.has-children > a:hover,
+  .js .l-header .menu-dropdown > li.has-children > a:focus {
+    background: #20252e;
+    color: #45beb1;
   }
 }
