@@ -115,11 +115,6 @@ blockquote {
   font-size: 1.3125rem;
   font-weight: 600;
 }
-.l-header .menu-dropdown .first {
-  position: absolute;
-  left: 0;
-  font-size: 1.5rem;
-}
 .l-header .menu-dropdown ul .first {
   position: relative;
   font-size: 1.3125rem;
@@ -134,7 +129,16 @@ blockquote {
   color: #fafafa;
 }
 
-@media (min-width: 34em) {
+@media (min-width: 48em) {
+  .menu-toggle-state:not(:checked) ~ .menu-dropdown {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .l-header .menu-dropdown .first {
+    position: absolute;
+    left: 0;
+    font-size: 1.5rem;
+  }
   .l-header .menu a {
     padding-top: 2.25rem;
   }
@@ -143,12 +147,6 @@ blockquote {
   }
   .l-header .menu ul .first a {
     padding: 1rem 1.25rem;
-  }
-}
-@media (min-width: 48em) {
-  .menu-toggle-state:not(:checked) ~ .menu-dropdown {
-    display: flex;
-    justify-content: flex-end;
   }
   .menu-dropdown ul a:hover,
   .menu-dropdown ul a:focus,
