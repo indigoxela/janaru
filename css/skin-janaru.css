@@ -46,6 +46,7 @@
 /* == General ================================= */
 body {
   background: #fafafa;
+  color: #212121;
   font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
 }
 
@@ -208,6 +209,12 @@ blockquote {
 .breadcrumb li span {
   margin: 0.25rem;
   padding: 0.25rem;
+}
+
+@media (min-width: 48em) {
+.breadcrumb {
+  display: none;
+  }
 }
 
 /* == Content ================================= */
