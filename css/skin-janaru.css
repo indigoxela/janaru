@@ -236,11 +236,23 @@ article .submitted {
   font-size: 0.75rem;
   text-align: right;
 }
-.node-type-post .field-name-body p {
+.node-post .field-name-body p {
   font-family: 'IBM Plex Serif', Georgia, Times, serif;
 }
 .node-type-post .links.inline {
   margin: 2rem 0;
+}
+.view-mode-teaser .submitted {
+  margin: 1rem 0;
+}
+.view-mode-teaser h2 a,
+.view-mode-teaser .submitted a {
+  color: #212121;
+}
+.view-mode-teaser .links.inline a {
+  padding: 0.25rem 0.5rem;
+  background: #ecf8f7;
+  color: #30857b;
 }
 
 @media (min-width: 48em) {
