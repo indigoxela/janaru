@@ -1,0 +1,35 @@
+/**
+ * @file
+ * Editor styles
+ *
+ * Adds styles for CKEditor.
+ */
+
+/* Body */
+.cke_editable {
+  background: #fafafa;
+  color: #212121;
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 18px;
+}
+/* Links */
+a {
+  color: #37988d;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  background: #ecf8f7;
+}
+/* Various text elements */
+strong {
+  font-weight: 600;
+}
+blockquote {
+  border-left: 3px solid #7cd1c8;
+  background: #fff;
+  color: #616161;
+}
+p.small {
+  font-size: 16px;
+}

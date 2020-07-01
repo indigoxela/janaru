@@ -7,3 +7,6 @@ screenshot = screenshot.png
 
 ; Add theme CSS files
 stylesheets[all][] = css/skin-janaru.css
+
+; Include a style sheet in the rich-text editor.
+ckeditor_stylesheets[] = css/editor.css
