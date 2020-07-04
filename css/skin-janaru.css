@@ -95,6 +95,10 @@ blockquote {
 p.small {
   font-size: 0.875rem;
 }
+ul {
+  padding-left: 1.625rem;
+  list-style-type: disclosure-closed;
+}
 
 @media (min-width: 48em) {
   h1 {
@@ -133,6 +137,7 @@ p.small {
 /* == Header ================================== */
 .l-header {
   margin: 0 0 1rem;
+  z-index: 2;
 }
 .l-header a {
   box-shadow: none;
@@ -150,6 +155,7 @@ p.small {
 .l-header .menu-dropdown a span.sub-arrow {
   display: none;
 }
+.l-header .menu-dropdown a.active,
 .l-header .menu-dropdown a.active-trail {
   color: #f317cd;
 }
@@ -220,6 +226,40 @@ p.small {
 @media (min-width: 48em) {
 .breadcrumb {
   display: none;
+  }
+}
+
+/* == Hero blocks============================== */
+.l-top .block-hero {
+  padding: 1rem 0.5rem 2.5rem;
+}
+.l-top .block-hero:nth-of-type(odd) {
+  background: #b4e5df;
+}
+.l-top .block-hero:first-of-type {
+  margin-top: -1rem;
+  background: #45beb1;
+}
+
+@media (min-width: 48em) {
+  .l-top .block-hero {
+    padding: 1.5rem 2rem 2rem;
+  }
+  .l-top .block-hero:nth-of-type(odd) {
+    transform: skewY(-3deg);
+  }
+  .l-top .block-hero:first-of-type {
+    margin-top: -5.5rem;
+    padding: 3.5rem 2rem 2rem;
+  }
+  .l-top .block-hero h2 {
+    display: inline-block;
+    border-radius: 0.125rem;
+    background: #fafafa;
+  }
+  .l-top .block-hero:nth-of-type(even) h2 {
+    background: #212121;
+    color: #fafafa;
   }
 }
 
