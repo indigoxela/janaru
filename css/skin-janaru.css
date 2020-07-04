@@ -183,9 +183,15 @@ ul {
     padding-top: 2.25rem;
   }
   .l-header .menu .first a {
-    padding: 2.0625rem 1.25rem 0.375rem 0;
+    border-radius: 0.125rem;
+    margin-top: 1.6875rem;
+    padding: 0.375rem 1.25rem 0.375rem;
+    background: #fafafa;
+    color: #212121;
   }
   .l-header .menu ul .first a {
+    border-radius: 0;
+    margin-top: 0;
     padding: 1rem 1.25rem;
   }
   .menu-dropdown ul a:hover,
