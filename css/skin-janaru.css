@@ -130,6 +130,9 @@ ul {
 }
 
 /* == Layout ================================== */
+.l-wrapper {
+  margin-bottom: 3rem;
+}
 @media (min-width: 62em) {
   .container {
     max-width: 50rem;
@@ -300,18 +303,6 @@ article .submitted {
 .node-type-post .links.inline {
   margin: 2rem 0;
 }
-.view-mode-teaser .submitted {
-  margin: 1rem 0;
-}
-.view-mode-teaser h2 a,
-.view-mode-teaser .submitted a {
-  color: #212121;
-}
-.view-mode-teaser .links.inline a {
-  padding: 0.25rem 0.5rem;
-  background: #ecf8f7;
-  color: #30857b;
-}
 
 @media (min-width: 48em) {
   .l-content {
@@ -366,6 +357,21 @@ article .submitted {
 }
 
 /* == Views =================================== */
+.view-name-blog .views-row {
+  margin-top: 2.5rem;
+}
+.view-name-blog .views-field-title h2 {
+  margin-top: 1rem;
+}
+.view-name-blog .views-field-title a,
+.view-name-blog a.username {
+  color: #212121;
+}
+.view-name-blog .views-field-view-node a {
+  padding: 0.25rem 0.5rem;
+  background: #ecf8f7;
+  color: #30857b;
+}
 .block-views-blog-block-1 .views-field-title h3 {
   margin: 0 0 2rem;
   font-size: 1.125rem;
@@ -381,6 +387,9 @@ article .submitted {
 }
 
 @media (min-width: 48em) {
+  .view-name-blog .views-row {
+    margin-top: 3.5rem;
+  }
   .block-views-blog-block-1 .view-content {
 		display: flex;
 	}
