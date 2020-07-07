@@ -72,11 +72,13 @@ h1 {
 }
 h2 {
   margin: 2rem 0 1rem;
+  font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
 }
 h3 {
   margin: 1.5rem 0 0;
+  font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
 }
 
@@ -277,6 +279,9 @@ ul {
 article .submitted {
   font-size: 1rem;
 }
+.node-type-post.view-mode-full {
+  margin-top: 1rem;
+}
 .node-type-post .l-page-title {
   display: none;
 }
@@ -289,7 +294,7 @@ article .submitted {
   font-size: 0.75rem;
   text-align: right;
 }
-.node-post .field-name-body p {
+.node-post .field-name-body {
   font-family: 'IBM Plex Serif', Georgia, Times, serif;
 }
 .node-type-post .links.inline {
@@ -324,6 +329,9 @@ article .submitted {
   }
   article .submitted {
     font-size: 1.125rem;
+  }
+  .node-type-post.view-mode-full {
+    margin-top: 3rem;
   }
   .node-type-post .field-name-field-image {
     margin-bottom: 3.5rem;
@@ -362,6 +370,14 @@ article .submitted {
   margin: 0 0 2rem;
   font-size: 1.125rem;
   font-weight: bold;
+}
+.block-views-blog-item-titles-block .views-field-picture {
+  float: left;
+  margin-right: 1rem;
+}
+.block-views-blog-item-titles-block .views-field-picture img {
+  width: 4.25rem;
+  border-radius: 0.25rem;
 }
 
 @media (min-width: 48em) {
