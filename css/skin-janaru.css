@@ -353,12 +353,12 @@ article .submitted {
   }
 }
 @media (min-width: 75em) {
-  .front .block-hero:first-of-type {
+  .front .l-content .block-hero:first-of-type {
     margin-top: -6rem;
   }
 }
 @media (min-width: 100em) {
-  .front .block-hero:first-of-type {
+  .front .l-content .block-hero:first-of-type {
     margin-top: -7rem;
   }
 }
