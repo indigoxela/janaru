@@ -358,8 +358,14 @@ article .submitted {
   }
 }
 @media (min-width: 100em) {
-  .front .l-content .block-hero:first-of-type {
-    margin-top: -7rem;
+  .front .block-hero {
+    margin-bottom: 0;
+  }
+  .front .l-content .block-hero:nth-of-type(odd) {
+    transform: none;
+  }
+  .front .block-hero h2 {
+    display: block;
   }
 }
 
