@@ -372,6 +372,7 @@ article .submitted {
 /* == Views =================================== */
 .view-name-blog .views-row {
   margin-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 .view-name-blog .views-field-title h2 {
   margin-top: 1rem;
@@ -403,6 +404,7 @@ article .submitted {
 @media (min-width: 48em) {
   .view-name-blog .views-row {
     margin-top: 3.5rem;
+    padding-bottom: 3.5rem;
   }
   .block-views-blog-block-1 div.container {
 		padding-left: 0;
