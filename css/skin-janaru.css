@@ -400,13 +400,27 @@ article .submitted {
   font-size: 1.125rem;
   font-weight: 600;
 }
-.block-views-blog-item-titles-block .views-field-picture {
+.block-views-blog-item-titles-block .views-field-picture,
+.view-user-profiles .views-field-picture {
   float: left;
   margin-right: 1rem;
 }
-.block-views-blog-item-titles-block .views-field-picture img {
+.block-views-blog-item-titles-block .views-field-picture img,
+.view-user-profiles .views-field-picture img {
   width: 4.25rem;
   border-radius: 0.25rem;
+}
+.view-user-profiles .views-row {
+  margin-bottom: 2.5rem;
+}
+.view-user-profiles .views-row-1 {
+  margin-top: 1.5rem;
+}
+.view-user-profiles .views-field-name {
+  font-weight: bold;
+}
+.view-user-profiles .views-field-ueber-mich {
+  clear: left;
 }
 
 @media (min-width: 48em) {
@@ -425,6 +439,9 @@ article .submitted {
 		margin: 1rem 0 2rem;
 		font-size: 1.5rem;
 	}
+  .view-user-profiles .views-row {
+    margin-bottom: 3.5rem;
+  }
 }
 
 /* == Footer ================================== */
