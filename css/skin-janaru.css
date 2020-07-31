@@ -102,6 +102,46 @@ ul {
   list-style-type: disclosure-closed;
 }
 
+/* Forms */
+.form-item label {
+  font-weight: 400;
+}
+.form-required {
+  color: #9e9e9e;
+}
+input.form-autocomplete,
+input.form-text,
+input.form-tel,
+input.form-date,
+input.form-time,
+input.form-email,
+input.form-url,
+input.form-color,
+input.form-number,
+input.form-search,
+input.form-file,
+textarea.form-textarea {
+  border: 1px solid #e0e0e0;
+}
+.button,
+input.form-submit,
+input.button-primary,
+button.button-primary {
+  background: #45beb1;
+  color: #212121;
+}
+.button:hover,
+.button:focus,
+input.form-submit:hover,
+input.form-submit:focus,
+input.button-primary:hover,
+input.button-primary:focus,
+button.button-primary:hover,
+button.button-primary:focus {
+  background: #30857b;
+  color: #fff;
+}
+
 @media (min-width: 48em) {
   h1 {
     margin: 2rem 0 3.5rem;
@@ -122,6 +162,19 @@ ul {
   p.small {
     font-size: 1rem;
   }
+	input.form-autocomplete,
+	input.form-text,
+	input.form-tel,
+	input.form-date,
+	input.form-time,
+	input.form-email,
+	input.form-url,
+	input.form-color,
+	input.form-number,
+	input.form-search,
+	input.form-file {
+		max-width: 30rem;
+	}
 }
 @media (min-width: 62em) {
   h1 {
