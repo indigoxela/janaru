@@ -339,6 +339,9 @@ article .submitted {
   .node-type-post .field-name-field-image-info {
     margin: -3.5rem 0.5rem 3.5rem 0;
   }
+  .page-node-6 h3 {
+    font-size: 1.3125rem;
+  }
 }
 @media (min-width: 62em) {
   .front .block-hero {
