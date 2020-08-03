@@ -252,6 +252,9 @@ button.button-primary:focus {
     margin-top: 0;
     padding: 1rem 1.25rem;
   }
+  .l-header .menu ul .first a.active-trail {
+    color: #212121;
+  }
   .menu-dropdown ul a:hover,
   .menu-dropdown ul a:focus,
   .menu-dropdown ul a:active,
