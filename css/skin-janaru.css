@@ -360,6 +360,9 @@ article .submitted {
 .node-type-post .links.inline {
   margin: 2rem 0;
 }
+.node-type-post .comment-footer .links.inline {
+  margin: 0;
+}
 /* Page Ressourcen */
 .page-node-6 h3 {
   font-size: 1.125rem;
