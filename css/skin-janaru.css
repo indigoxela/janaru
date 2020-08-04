@@ -385,10 +385,7 @@ article .submitted {
   text-transform: none;
 }
 .js .field-name-comment-body fieldset.collapsible .fieldset-title {
-  border-radius: 0;
-}
-.field-name-comment-body .filter-wrapper .fieldset-wrapper {
-  padding-top: 2rem;
+  box-shadow: none;
 }
 .field-name-comment-body .filter-wrapper .form-item,
 .field-name-comment-body .filter-wrapper .filter-guidelines,
