@@ -363,13 +363,37 @@ article .submitted {
 .node-type-post .links.inline {
   margin: 2rem 0;
 }
-.node-type-post .comment-footer .links.inline {
-  margin: 0;
-}
 /* Page Ressourcen */
 .page-node-6 h3 {
   font-size: 1.125rem;
   font-weight: bold;
+}
+/* Comments */
+.node-type-post .comment-footer .links.inline {
+  margin: 0;
+}
+.comment-header::before {
+  background: #fafafa;
+}
+.js .field-name-comment-body fieldset.collapsed {
+  padding: 1rem 0 2rem !important;
+}
+.field-name-comment-body legend {
+  font-size: 1rem;
+}
+.field-name-comment-body fieldset.collapsible .fieldset-legend {
+  text-transform: none;
+}
+.js .field-name-comment-body fieldset.collapsible .fieldset-title {
+  border-radius: 0;
+}
+.field-name-comment-body .filter-wrapper .fieldset-wrapper {
+  padding-top: 2rem;
+}
+.field-name-comment-body .filter-wrapper .form-item,
+.field-name-comment-body .filter-wrapper .filter-guidelines,
+.field-name-comment-body .filter-wrapper .filter-help {
+  font-size: 1rem;
 }
 
 @media (min-width: 48em) {
