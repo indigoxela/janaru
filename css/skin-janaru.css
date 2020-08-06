@@ -247,6 +247,9 @@ button.button-primary:focus {
     background: #fafafa;
     color: #212121;
   }
+  .l-header .menu ul a {
+    padding-top: 1rem;
+  }
   .l-header .menu ul .first a {
     border-radius: 0;
     margin-top: 0;
@@ -258,8 +261,13 @@ button.button-primary:focus {
   .menu-dropdown ul a:hover,
   .menu-dropdown ul a:focus,
   .menu-dropdown ul a:active,
-  .menu-dropdown ul a.highlighted {
+  .menu-dropdown ul a.highlighted,
+  .l-header .menu ul .first a:hover,
+  .l-header .menu ul .first a:focus,
+  .l-header .menu ul .first a:active,
+  .l-header .menu ul .first a.highlighted {
     background: #f317cd;
+    color: #fffffe;
   }
   .js .menu-dropdown > li:hover,
   .js .l-header .menu-dropdown > li > a:hover,
