@@ -546,3 +546,13 @@ article .submitted {
 .l-footer .block-system-powered-by a:hover {
   text-decoration: none;
 }
+/* Twitter link */
+.l-footer .menu > li.menu-mlid-468 {
+  margin-right: 1rem;
+}
+.l-footer .menu .menu-mlid-468 a {
+  padding-left: 2rem;
+  background: url(../img/icon-twitter.png) no-repeat;
+  background-size: contain;
+  text-indent: -9999rem;
+}
