@@ -94,6 +94,12 @@ blockquote {
   color: #616161;
   font-size: 1.125rem;
 }
+code {
+  background: #eee;
+  border: 0;
+  padding: 0 0.5rem;
+  line-height: 1.3575;
+}
 p.small {
   font-size: 0.875rem;
 }
@@ -350,6 +356,12 @@ article .submitted {
 .field-name-body a {
   font-weight: 600;
 }
+.field-name-body img {
+  margin: 1.5rem 0 1rem;
+}
+.field-name-body img.border {
+  border: 0.125rem solid #eee
+}
 .node-type-post.view-mode-full {
   margin-top: 1rem;
 }
@@ -367,6 +379,16 @@ article .submitted {
 }
 .node-post .field-name-body {
   font-family: 'IBM Plex Serif', Georgia, Times, serif;
+}
+.node-type-post .field-name-field-tags {
+  margin-top: 3rem;
+}
+.node-type-post .field-name-field-tags .field-item {
+  display: inline;
+  margin-left: 0.75rem;
+}
+.node-type-post .field-name-field-tags .field-item:first-of-type {
+  margin-left: 0.5rem;
 }
 .node-type-post .links.inline {
   margin: 2rem 0;
