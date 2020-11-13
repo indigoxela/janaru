@@ -566,6 +566,12 @@ article .submitted {
   }
 }
 
+/* == User pages =============================== */
+form#user-login,
+form#user-pass {
+  margin-top: 2rem;
+}
+
 /* == Footer ================================== */
 .l-footer {
   border-top: 0.125rem solid #eee;
