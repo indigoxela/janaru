@@ -365,7 +365,8 @@ article .submitted {
 .field-name-body img {
   margin: 1.5rem 0 1rem;
 }
-.field-name-body img.border {
+.field-name-body img.border,
+.field-name-body figure.border {
   border: 0.125rem solid #eee
 }
 .node-type-post.view-mode-full {
